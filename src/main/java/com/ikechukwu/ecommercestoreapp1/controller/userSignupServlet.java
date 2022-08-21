@@ -1,4 +1,4 @@
-package com.ikechukwu.ecommercestoreapp1;
+package com.ikechukwu.ecommercestoreapp1.controller;
 
 import com.ikechukwu.ecommercestoreapp1.util.DBConnection;
 
