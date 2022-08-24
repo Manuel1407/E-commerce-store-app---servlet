@@ -1,5 +1,14 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="com.ikechukwu.ecommercestoreapp1.model.User" %>
+
+<%
+    User auth = (User) request.getSession().getAttribute("auth");
+    if (auth != null) {
+//        request.setAttribute("auth", auth);
+        response.sendRedirect("index.jsp");
+    }
+%>
 
 <!DOCTYPE html>
 <html lang="en" >

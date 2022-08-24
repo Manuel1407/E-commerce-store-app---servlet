@@ -1,10 +1,10 @@
 
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="com.ikechukwu.week6taskiyke.dao.ProductDao" %>
-<%@ page import="com.ikechukwu.week6taskiyke.util.DBConnection" %>
-<%@ page import="com.ikechukwu.week6taskiyke.model.Product" %>
-<%@ page import="com.ikechukwu.week6taskiyke.model.Cart" %>
+<%@ page import="com.ikechukwu.ecommercestoreapp1.dao.ProductDao" %>
+<%@ page import="com.ikechukwu.ecommercestoreapp1.util.DBConnection" %>
+<%@ page import="com.ikechukwu.ecommercestoreapp1.model.Product" %>
+<%@ page import="com.ikechukwu.ecommercestoreapp1.model.Cart" %>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
@@ -19,15 +19,6 @@
     request.setAttribute("cart_list", cart_list);
   }
 %>
-<%--<html>--%>
-<%--<head>--%>
-<%--    <head>--%>
-<%--        <meta name="viewport" content="width=device-width,initial-scale=1">--%>
-<%--        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">--%>
-<%--        <title>Emmy Stores</title>--%>
-<%--    </head>--%>
-<%--</head>--%>
-<%--<body>--%>
 
 <div>
     <table class="table table-striped">

@@ -163,7 +163,6 @@ public class ProductDao {
             pst.setInt(4, product.getQuantity());
             pst.setInt(5, product.getId());
 
-
             int resultSet1 = pst.executeUpdate();
             if (resultSet1 > 0) return true;
         } catch (Exception e) {

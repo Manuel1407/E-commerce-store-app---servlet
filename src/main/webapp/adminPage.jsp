@@ -36,7 +36,7 @@
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-                <h2> Uploading Products </h2>
+                <%@include file="includes/addProducts.jsp"%>
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-                <h2> Viewing Products </h2>
+                <%@include file="includes/allProducts.jsp"%>
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-                <h2> Updating Products </h2>
+                <%@include file="includes/allProducts.jsp"%>
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-                <h2> Deleting Products </h2>
+                <%@include file="includes/allProducts.jsp"%>
             </div>
         </div>
     </div>

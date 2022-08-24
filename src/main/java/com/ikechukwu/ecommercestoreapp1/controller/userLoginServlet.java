@@ -38,6 +38,5 @@ public class userLoginServlet extends HttpServlet {
             out.print("user login failed");
         }
 
-
     }
 }

@@ -1,8 +1,8 @@
-<%@ page import="com.ikechukwu.week6taskiyke.model.User" %>
-<%@ page import="com.ikechukwu.week6taskiyke.dao.ProductDao" %>
-<%@ page import="com.ikechukwu.week6taskiyke.util.DBConnection" %>
-<%@ page import="com.ikechukwu.week6taskiyke.model.Product" %>
-<%@ page import="com.ikechukwu.week6taskiyke.model.Cart" %>
+<%@ page import="com.ikechukwu.ecommercestoreapp1.model.User" %>
+<%@ page import="com.ikechukwu.ecommercestoreapp1.dao.ProductDao" %>
+<%@ page import="com.ikechukwu.ecommercestoreapp1.util.DBConnection" %>
+<%@ page import="com.ikechukwu.ecommercestoreapp1.model.Product" %>
+<%@ page import="com.ikechukwu.ecommercestoreapp1.model.Cart" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="java.util.List" %>
 
