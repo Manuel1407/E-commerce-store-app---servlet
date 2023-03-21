@@ -12,7 +12,7 @@ public class DBConnection {
                 Class.forName("com.mysql.cj.jdbc.Driver");
                 String url = "jdbc:mysql://localhost:3306/EmmyStores?useSSL=false";
                 String uname = "root";
-                String pass = "Current1";
+                String pass = "12345678";
                 connection = DriverManager.getConnection(url, uname, pass);
                 System.out.println("CONNECTED");
             } catch (Exception e) {
