@@ -2,6 +2,7 @@
 
 This application is an E-commerce store showing proper understanding of model mapping.
 The features of the application include:
+
 *ADMIN*
 * Endpoint and view for Signup and Login
 * Endpoint to upload/add products.
@@ -15,7 +16,7 @@ The features of the application include:
 * Endpoint to LIKE or SAVE products they wish to purchase later.
 
 Also included in the file is, an architectural diagram of the User Journey, 
-showing all the modules, all users of the application interact with it.
+showing all the modules and all users of the application interacting with it.
 
 Technologies used include: 
 * Java Servlet
